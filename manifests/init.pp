@@ -9,16 +9,24 @@ class role_topdesk (
   $soortid        = 'Server',
   $merkid         = 'SuperMicro',
   $budgethouderid = 'AUT',
+  $leverancierid  = 'Ahead-IT',
+  $configuratieid = 'C002306',
+  $statusid       = 'In Productie',
+  
+  
   ){
 
   class { 'topdesk::hardware-add':
-    url            => $url,
-    arguments      => $arguments,
-    username       => $username,
-    password       => $password,
-    soortid        => $soortid,
-    merkid         => $merkid,
-    budgethouderid => $budgethouderid,
+    url             => $url,
+    arguments       => $arguments,
+    username        => $username,
+    password        => $password,
+    soortid         => $soortid,
+    merkid          => $merkid,
+    budgethouderid  => $budgethouderid,
+    leverancierid   => $leverancierid,
+    configuratieid  => $configuratieid,
+    statusid        => $statusid,
   }
 
 }
