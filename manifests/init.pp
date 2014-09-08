@@ -8,6 +8,7 @@ class role_topdesk (
   ){
 
   class { 'topdesk::hardware-add':
+    url      => $url,
     username => $username,
     password => $password,
   }
