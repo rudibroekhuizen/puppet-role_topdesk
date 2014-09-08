@@ -15,7 +15,7 @@
 
 ## Overview
 
-Module to apply the puppet-topdesk module. This modules contains the user data. Some data is read from yaml file.
+Module to apply the puppet-topdesk module. This modules contains the user data. Some data is read from yaml data.
 
 ## Module Description
 
