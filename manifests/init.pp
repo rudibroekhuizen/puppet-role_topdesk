@@ -10,7 +10,7 @@ class role_topdesk (
   $merkid         = 'SuperMicro',
   $budgethouderid = 'AUT',
   $leverancierid  = 'Ahead-IT',
-  $configuratieid = 'C002306',
+  $configuratieid = 'C AUT',
   $statusid       = 'In Productie',
   ){
 
