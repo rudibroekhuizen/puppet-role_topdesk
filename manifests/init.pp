@@ -2,8 +2,9 @@
 #
 #
 class role_topdesk (
-  $username = undef,
-  $password = undef,
+  $url      = http://topdesk/tas/secure/hardware?,
+  $username = undef, #read from yaml data
+  $password = undef, #read from yaml data
   ){
 
   class { 'topdesk::hardware-add':
