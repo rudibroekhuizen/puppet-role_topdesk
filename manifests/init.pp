@@ -35,11 +35,14 @@
 #
 # Copyright 2014 Your name here, unless otherwise noted.
 #
-class role_topdesk {
+class role_topdesk (
+  $username = undef,
+  $password = undef,
+  ){
 
   topdesk::hardware-add {'test':
-    username = undef,
-    password = undef,
+    username = $username,
+    password = $password,
   }
 
 }
