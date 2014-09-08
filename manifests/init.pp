@@ -2,15 +2,21 @@
 #
 #
 class role_topdesk (
-  $url      = 'http://topdesk/tas/secure/hardware?',
-  $username = undef, #read from yaml data
-  $password = undef, #read from yaml data
+  $username       = undef, #read from yaml data
+  $password       = undef, #read from yaml data
+  $url            = 'http://topdesk/tas/secure/hardware?',
+  $soortid        = 'Server',
+  $merkid         = 'SuperMicro',
+  $budgethouderid = 'AUT',
   ){
 
   class { 'topdesk::hardware-add':
-    url      => $url,
-    username => $username,
-    password => $password,
+    username       => $username,
+    password       => $password,
+    url            => $url,
+    soortid        => $soortid,
+    merkid         => $merkid,
+    budgethouderid => $budgethouderid,
   }
 
 }
