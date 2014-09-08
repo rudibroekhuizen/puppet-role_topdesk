@@ -2,8 +2,8 @@
 #
 #
 class role_topdesk (
-  $url            = 'https://topdesk/tas/secure/hardware?',    #http://topdesk/tas/secure/hardware?
-  $arguments      = '--insecure -s -G',                       #-s -G
+  $url            = 'http://topdesktest/tas/secure/hardware?',    #http://topdesk/tas/secure/hardware?
+  $arguments      = '-s -G',
   $username       = undef, #read from yaml data
   $password       = undef, #read from yaml data
   $soortid        = 'Server',
