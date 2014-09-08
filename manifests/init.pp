@@ -2,7 +2,7 @@
 #
 #
 class role_topdesk (
-  $url            = 'http://topdesktest/tas/secure/hardware?',    #http://topdesk/tas/secure/hardware?
+  $url            = 'http://topdesktest/tas/secure/hardware?',
   $arguments      = '-s -G',
   $username       = undef, #read from yaml data
   $password       = undef, #read from yaml data
