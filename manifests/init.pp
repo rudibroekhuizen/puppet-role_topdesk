@@ -12,8 +12,6 @@ class role_topdesk (
   $leverancierid  = 'Ahead-IT',
   $configuratieid = 'C002306',
   $statusid       = 'In Productie',
-  
-  
   ){
 
   class { 'topdesk::hardware-add':
