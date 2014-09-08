@@ -37,5 +37,9 @@
 #
 class role_topdesk {
 
+  topdesk::hardware-add {'test':
+    username = undef,
+    password = undef,
+  }
 
 }
