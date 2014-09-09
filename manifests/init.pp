@@ -3,7 +3,7 @@
 #
 class role_topdesk (
   $url            = 'http://topdesktest/tas/secure/hardware?',
-  $arguments      = '-s -G',
+  $arguments      = '--output /opt --get',
   $username       = undef, #read from yaml data
   $password       = undef, #read from yaml data
   $soortid        = 'Server',
